@@ -1,0 +1,48 @@
+<!-- footer.html -->
+<div id="footer">
+  <div>
+    <hr />
+    <h6>(c) 2012 Loyalist Arms &amp; Repairs LTD, all rights
+      reserved.
+    	</h6>
+  </div>		
+	<div id="info">
+    		<h5>Phone 555-5555; Fax: 555-5553;
+    		Email: info@lar.com; Owner: Ray Higgins</h5>
+		</div>		
+
+    <script type= "text/javascript">
+
+$(document).ready(function() {
+
+function update() {
+
+  $.ajax({
+
+   type: 'POST',
+
+  url: 'scripts/time.php',
+
+  timeout: 1000,
+
+  success: function(data) {
+
+      $("#welcome").html(data); 
+
+    window.setTimeout(update, 1000);
+
+   },
+
+  });
+
+ }
+
+ update();
+
+});
+
+</script>		
+</div>
+
+</body>
+</html>

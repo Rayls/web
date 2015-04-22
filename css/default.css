@@ -1,0 +1,139 @@
+﻿/* default.css */
+
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+width: 1050px;
+font-family: Georgia, Times_New_Roman, Serif;
+font-size: 1em;
+background: url(http://cs.smu.ca/~csc35509/submissions/11/images/gray_jean.png);
+}
+
+div#outer {
+width: 100%;
+margin: 5px 10px 10px 10px;
+}
+
+#outer p{
+margin: 15px 5px 5px 5px
+}
+
+/* banner */
+div#banner {
+width: 100%;
+border-bottom: 10px;
+padding-bottom: 20px;
+float: left;
+}
+
+div#logo {
+width: 60%;
+float: left;
+}
+
+div#welcome {
+width: 40%;
+float: right;
+font-size: 0.8em;
+text-align: center; 
+padding-top: 40px;
+color: #005283;
+}
+
+/*  menu  */
+div#menu {
+width: 100%; 
+height: 15px;
+}
+
+.links {
+padding: 0;
+margin: 0;
+}
+
+/*  main menu bar  */
+.links li {
+padding: 0;
+margin: 0;
+float: left;
+list-style: none;
+font: bold .7em sans-serif;
+}
+ 
+.links li a {
+display: block;
+width: 110px;
+padding: 4px 10px;
+margin: 0 1px 0 0;
+background-color: #005283;
+color: #FFF;
+text-align: center;
+text-decoration: none;
+}
+
+.links li a:hover {background-color: #06F;}
+
+/*  drop-down menu  */
+.links div {
+background-color: #4D94FF;
+border: 1px solid #003380;
+position: absolute;
+visibility: hidden;
+}
+
+.links div a {
+display: block;
+width: 156px;
+padding: 5px 10px;
+background-color: #E6F0FF;
+color: #009;
+text-align: left;
+text-decoration: none;
+font: bold 90% Verdana;
+}
+
+.links div a:hover {
+background-color: #06F;
+color: #FFF;
+}
+                         
+
+/* body */
+div.body {
+padding: 20px;
+float: left;
+}
+
+.body h1, h2, li {color: #06F;}
+
+.body li {
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 15px;
+}
+
+.body a {color: #393}
+.body td {padding: 5px}
+
+div.image {
+float: left;
+padding-top: 25px;
+padding-left: 75px;
+}
+
+/* footer */
+div#footer {
+width: 80%;
+text-align: left;
+float: left;
+}
+
+/*  CSS For Specific Pages:  */
+.comments {
+padding: 20px;
+padding-left: 10px;
+}
+

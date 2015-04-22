@@ -1,0 +1,5 @@
+/* feedback.js */
+
+function validateFeedback(){
+
+}
